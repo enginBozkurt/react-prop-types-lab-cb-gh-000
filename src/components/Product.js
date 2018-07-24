@@ -6,10 +6,10 @@ class  Product extends React.Component {
   render() {
     return (
       <div>
-        <p>{this.props.name}</p>
-        <p>{this.props.producer}</p>
-        <p>{this.props.hasWatermark}</p>
-        <p>{this.props.color}</p>
+        <p>Name: {this.props.name} </p>
+        <p>Producer: {this.props.producer}</p>
+        <p>hasWatermark: {this.props.hasWatermark}</p>
+        <p>Color:{this.props.color}</p>
       </div>
     )
   }

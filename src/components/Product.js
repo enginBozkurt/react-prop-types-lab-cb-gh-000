@@ -25,6 +25,8 @@ Product.PropTypes = {
   hasWatermark: PropTypes.bool,
   color: PropTypes.oneOf(['white', 'eggshell-white', 'salmon']).isRequired,
 
+  
+  
 
 
 

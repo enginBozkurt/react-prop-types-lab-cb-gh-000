@@ -20,19 +20,11 @@ Product.defaultProps = {
 }
 
 Product.PropTypes = {
-  name: PropTypes.string.isRequired;
+  name: PropTypes.string.isRequired,
+  producer: PropTypes.string,
   
 
 
 
+
 };
-
-
-
-
-
-
-
-
-
-

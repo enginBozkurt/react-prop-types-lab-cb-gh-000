@@ -114,7 +114,7 @@ describe('<Product />', () => {
   describe('`weight` prop', () => {
     it('should be required', () => {
       shallow(<Product {...ALL_PROPS_VALID} weight={undefined} />);
-      expect(spy.called, 'The `weight` prop validator does not validate the value as being required.').to.be.false;
+      expect(spy.called, 'The `weight` prop validator does not validate the value as being required.').to.be.true;
     });
 
     it('should be a number', () => {

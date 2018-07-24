@@ -39,7 +39,7 @@ Product.PropTypes = {
     }
   }
 }
-     
+
 
 
 

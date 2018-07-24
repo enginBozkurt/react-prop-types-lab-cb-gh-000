@@ -20,12 +20,12 @@ Product.defaultProps = {
 }
 
 Product.PropTypes = {
+  name: PropTypes.string.isRequired;
   
 
 
+
 };
-
-
 
 
 

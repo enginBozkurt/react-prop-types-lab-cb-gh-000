@@ -21,8 +21,11 @@ Product.defaultProps = {
 
 Product.PropTypes = {
   
-  
+
+
 };
+
+
 
 
 

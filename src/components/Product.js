@@ -42,4 +42,3 @@ Product.PropTypes = {
 }
 
 export default Product;
-
